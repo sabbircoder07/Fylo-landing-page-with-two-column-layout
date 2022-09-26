@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>
+      Sabbir Ahmed| Frontend Mentor | Fylo landing page with two column layout
+    </title>
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="navigation__logo-box">
+        <img class="navigation__logo" src="./images/logo.svg" alt="Fylo" />
+      </div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Features</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Team</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Sign In</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="header__text-box">
+            <h1 class="heading-primary">
+              All your files in one secure location, accessible anywhere.
+            </h1>
+            <p class="paragraph">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+          </div>
+          <div class="get-started">
+            <div class="get-started__form">
+              <form action="#" class="form">
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    id="email-address"
+                    placeholder="Email address"
+                    required
+                  />
+                  <button class="btn btn--blue">Get Started</button>
+                </div>
+                <div class="form__group">
+                  <p class="error-message"></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="header__image-box">
+            <img
+              class="header__image"
+              src="./images/illustration-1.svg"
+              alt="header image"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section-where-are-you">
+        <div class="where-are-you__cntanier">
+          <div class="row">
+            <div class="col-1-of-2">
+              <div class="where-are-you__text-box">
+                <h1 class="heading-primary">
+                  Stay productive, wherever you are
+                </h1>
+                <p class="paragraph">
+                  Never let location be an issue when accessing your files. Fylo
+                  has you covered for all of your file storage needs.
+                </p>
+                <p class="paragraph">
+                  Securely share files and folders with friends, family and
+                  colleagues for live collaboration. No email attachments
+                  required!
+                </p>
+                <a href="#" class="button-text">See how Fylo works &rarr;</a>
+                <div class="testimonial">
+                  <div class="testimonial__text">
+                    <p class="paragraph u-padding-top-small">
+                      Fylo has improved our team productivity by an order of
+                      magnitude. Since making the switch our team has become a
+                      well-oiled collaboration machine.
+                    </p>
+                  </div>
+                  <div class="testimonial__author">
+                    <div class="testimonial__author-img-box">
+                      <img
+                        class="testimonial__author-img"
+                        src="/images/avatar-testimonial.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="testimonial__author-detail">
+                      <h4 class="testimonial__author-name">Kyle Burton</h4>
+                      <p class="testimonial__author-designation">
+                        Founder & CEO, Huddle
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-2">
+              <div class="where-are-you__image-box">
+                <img
+                  class="where-are-you__image"
+                  src="./images/illustration-2.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-access-today">
+        <div class="row">
+          <div class="col-1-of-2">
+            <div class="access-today__text-box">
+              <h1 class="heading-secondary">
+                Stay productive, wherever you are
+              </h1>
+              <p class="paragraph u-color-white">
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="access-today">
+              <div class="access-today__form">
+                <form action="#" class="form">
+                  <div class="form__group">
+                    <input
+                      type="email"
+                      class="form__input form__input-extend"
+                      id="email-address-extend"
+                      placeholder="email@exemple.com"
+                      required
+                    />
+                    <p class="error-message"></p>
+                    <button class="btn btn--light-blue">
+                      Get Started For Free
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="footer__logo-box">
+            <img
+              src="/images/logo-white.svg"
+              alt="full logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer_contact-information">
+            <ul class="footer__address-list">
+              <li class="footer__address-list-item footer_phone-no">
+                <img
+                  class="footer__address-icon"
+                  src="/images/icon-phone.svg"
+                  alt="phone no"
+                />
+                Phone: +1-543-123-4567
+              </li>
+              <li class="footer__address-list-item footer_email-address">
+                <img
+                  class="footer__address-icon"
+                  src="/images/icon-email.svg"
+                  alt="Email Id"
+                />
+                example@fylo.com
+              </li>
+              <li class="footer__address-list-item footer_address">
+                example@fylo.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Jobs</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Press</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Blog</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Carrers</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">How its work</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Beautiful Moment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="footer_social-icon">
+            <a
+              href="#"
+              class="fa fa-twitter"
+              aria-label="Read more about Seminole's new baby mayor"
+            ></a>
+            <a
+              href="#"
+              class="fa fa-facebook"
+              aria-label="Read more about Seminole's new baby mayor"
+            ></a>
+            <a
+              href="#"
+              class="fa fa-instagram"
+              aria-label="Read more about Seminole's new baby mayor"
+            ></a>
+            <a
+              href="#"
+              class="fa fa-linkedin"
+              aria-label="Read more about Seminole's new baby mayor"
+            ></a>
+            <a
+              href="#"
+              class="fa fa-pinterest"
+              aria-label="Read more about Seminole's new baby mayor"
+            ></a>
+            <a
+              href="#"
+              class="fa fa-youtube"
+              aria-label="Read more about Seminole's new baby mayor"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
