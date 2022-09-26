@@ -342,7 +342,7 @@ body {
 
 .section-where-are-you {
   position: relative;
-  background-image: url("/images/bg-curve-desktop.svg");
+  background-image: url("../images/bg-curve-desktop.svg");
   background-repeat: no-repeat;
   background-position: top;
   padding-top: 8rem; }
@@ -355,7 +355,7 @@ body {
   position: relative;
   width: 100%;
   border-radius: 3px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%, transparent 100%), url("/images/form_background.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%, transparent 100%), url("../images/form_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
