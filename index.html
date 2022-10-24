@@ -35,26 +35,35 @@
     </title>
   </head>
   <body>
-    <div class="navigation">
-      <div class="navigation__logo-box">
-        <img class="navigation__logo" src="./images/logo.svg" alt="Fylo" />
-      </div>
-      <nav class="navigation__nav">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#" class="navigation__link">Features</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link">Team</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#" class="navigation__link">Sign In</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
     <header class="header">
+      <div class="navigation">
+        <div class="navigation__logo-box">
+          <img class="navigation__logo" src="./images/logo.svg" alt="Fylo" />
+        </div>
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Features</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Team</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Sign In</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div class="row">
+        <div class="col-1-of-2 header__visible-for-other">
+          <div class="header__image-box">
+            <img
+              class="header__image"
+              src="./images/illustration-1.svg"
+              alt="header image"
+            />
+          </div>
+        </div>
         <div class="col-1-of-2">
           <div class="header__text-box">
             <h1 class="heading-primary">
@@ -86,7 +95,7 @@
             </div>
           </div>
         </div>
-        <div class="col-1-of-2">
+        <div class="col-1-of-2 header__visible-for-desktop">
           <div class="header__image-box">
             <img
               class="header__image"
@@ -101,6 +110,15 @@
       <section class="section-where-are-you">
         <div class="where-are-you__cntanier">
           <div class="row">
+            <div class="col-1-of-2 where-are-you__visible-for-other">
+              <div class="where-are-you__image-box">
+                <img
+                  class="where-are-you__image"
+                  src="./images/illustration-2.svg"
+                  alt=""
+                />
+              </div>
+            </div>
             <div class="col-1-of-2">
               <div class="where-are-you__text-box">
                 <h1 class="heading-primary">
@@ -142,7 +160,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-1-of-2">
+            <div class="col-1-of-2 where-are-you__visible-for-desktop">
               <div class="where-are-you__image-box">
                 <img
                   class="where-are-you__image"
@@ -158,12 +176,11 @@
         <div class="row">
           <div class="col-1-of-2">
             <div class="access-today__text-box">
-              <h1 class="heading-secondary">
-                Stay productive, wherever you are
-              </h1>
+              <h1 class="heading-secondary">Get early access today</h1>
               <p class="paragraph u-color-white">
-                Never let location be an issue when accessing your files. Fylo
-                has you covered for all of your file storage needs.
+                It only takes a minute to sign up and our free starter tier is
+                extremely generous. If you have any questions, our support team
+                would be happy to help you.
               </p>
             </div>
           </div>
@@ -219,9 +236,6 @@
                 />
                 example@fylo.com
               </li>
-              <li class="footer__address-list-item footer_address">
-                example@fylo.com
-              </li>
             </ul>
           </div>
         </div>
@@ -241,13 +255,13 @@
                 <a href="#" class="footer__link">Blog</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Carrers</a>
+                <a href="#" class="footer__link"></a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-1-of-4">
-          <div class="footer__navigation">
+          <div class="footer__navigation footer__navigation-extend">
             <ul class="footer__list">
               <li class="footer__item">
                 <a href="#" class="footer__link">Contact Us</a>
@@ -262,13 +276,13 @@
                 <a href="#" class="footer__link">How its work</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Beautiful Moment</a>
+                <a href="#" class="footer__link"></a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-1-of-4">
-          <div class="footer_social-icon">
+          <div class="footer__social-icon">
             <a
               href="#"
               class="fa fa-twitter"
